@@ -1,9 +1,30 @@
+@import '../bower_components/bourbon/app/assets/stylesheets/bourbon';
+@import '../bower_components/neat/app/assets/stylesheets/neat';
+
 body {
 	margin: 0;
 	background-color: rgba(245, 245, 241, 1);
 }
 
 header {
-	height: 242px;
+	padding-bottom: 40px;
+	padding-top: 40px;
 	border-bottom-color: grey;
+	background-color: white;
+}
+button {
+	background-color: rgba(50, 164, 190, 1);
+}
+.searchSideBar {
+	background-color: white;
+	float: left;
+	text-decoration: none;
+	color: rgba(50, 164, 190, 1);
+	@include span-columns(2);
+}
+ul {
+	text-decoration: none;
+}
+.sellerName {
+	color: rgba(177, 177, 177, 1);
 }
