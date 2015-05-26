@@ -15,7 +15,8 @@ header {
 button {
 	background-color: rgba(50, 164, 190, 1);
 }
-.searchSideBar {
+.searchSideBar,
+.searchSubBar {
 	background-color: white;
 	float: left;
 	text-decoration: none;
@@ -27,4 +28,8 @@ ul {
 }
 .sellerName {
 	color: rgba(177, 177, 177, 1);
+}
+.price {
+	color: rgba(120, 192, 65, 1);
+	
 }

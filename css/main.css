@@ -19,7 +19,8 @@ header {
 button {
   background-color: #32a4be; }
 
-.searchSideBar {
+.searchSideBar,
+.searchSubBar {
   background-color: white;
   float: left;
   text-decoration: none;
@@ -28,7 +29,8 @@ button {
   display: block;
   margin-right: 2.35765%;
   width: 14.70196%; }
-  .searchSideBar:last-child {
+  .searchSideBar:last-child,
+  .searchSubBar:last-child {
     margin-right: 0; }
 
 ul {
@@ -36,3 +38,6 @@ ul {
 
 .sellerName {
   color: #b1b1b1; }
+
+.price {
+  color: #78c041; }
